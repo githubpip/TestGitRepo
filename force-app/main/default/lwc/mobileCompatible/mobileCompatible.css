@@ -1,0 +1,79 @@
+/* Default styles for all screens */
+.sidelink {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 28px 18px 20px 25px;
+    color: #111111;
+    height: 70px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    flex: none;
+    order: 0;
+    float: left;
+    width: 100%;
+  }
+  
+  .sidespan {
+    box-sizing: border-box;
+    flex-direction: row;
+    gap: 16px;
+    height: 70px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 100%;
+  }
+  
+  .sidelinkicon {
+    --lwc-colorTextIconDefault: #00B2E3;
+    float: right;
+  }
+  
+    
+  
+  .THIS .contentPanel {
+    width: 100%;
+    padding: 0 1rem; /* Add some horizontal padding for better readability */
+}
+
+.THIS .innerSection {
+    padding: 1rem 0; /* Add some vertical padding between sections */
+}
+
+/* Adjust section borders */
+.THIS .sectionOne {
+    border-bottom: none; /* Remove the border to create separation between sections */
+}
+
+/* Adjust leftContentPanel and rightContentPanel */
+.THIS .leftContentPanel,
+.THIS .rightContentPanel {
+    padding: 1rem; /* Increase padding for better spacing */
+}
+
+/* Truncate home-links text if needed */
+.THIS .home-links {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* Hide the nth-child card */
+.THIS .reco-card:nth-child(n+6) {
+    display: none;
+}
+
+/* Adjust home-chart padding */
+@media (max-width: 767px) {
+    .THIS .home-chart {
+        padding-bottom: 1rem; /* Reduce padding for better spacing */
+    }
+}

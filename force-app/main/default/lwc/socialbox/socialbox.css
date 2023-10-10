@@ -1,0 +1,27 @@
+.THIS img {
+    width: 10px;
+    height: 10px;
+    
+  }
+  .slds-grid_align-center
+  {
+    
+    padding-left:1px !important;
+    font-size:xx-small;
+  }
+  @media only screen and (max-width: 768px) {
+    
+    .slds-grid_align-center{
+        padding-top:90px;
+        font-size: xx-small;
+        justify-content: right;
+        padding-left:0px !important;
+        padding-right:10px;
+        width:70px;
+        margin:30px;
+       
+    
+    }
+    
+    
+    }
